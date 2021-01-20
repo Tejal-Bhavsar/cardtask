@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    width: 345,
+    width: 340,
   },
   media: {
     height: 140,
@@ -26,10 +26,10 @@ export default function CardA({content}) {
          email:{content.email}
         </Typography>
         <Typography variant="h5" component="h2">
-       firstname:{content.firstname}
+       firstname:{content.first_name}
         </Typography>
         <Typography color="Secondary">
-         lastname:{content.lastname}
+         lastname:{content.last_name}
         </Typography>
         <Typography variant="body2" component="p">
           well meaning and kindly.
